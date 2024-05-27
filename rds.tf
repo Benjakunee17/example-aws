@@ -1,5 +1,5 @@
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  07:00:00 PM
  * Purpose : สร้าง subnet group สำหรับ aurora DB
  */
@@ -14,7 +14,7 @@ resource "aws_db_subnet_group" "warehouse_management" {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  07:00:00 PM
  * Purpose : สร้าง parameter group สำหรับ aurora DB
  */
@@ -51,7 +51,7 @@ resource "aws_rds_cluster_parameter_group" "warehouse_management" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  07:00:00 PM
  * Purpose : สร้าง aurora DB
  */
@@ -79,7 +79,7 @@ lifecycle {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  07:00:00 PM
  * Purpose : สร้าง cluster writer สำหรับ aurora DB
  */
@@ -128,7 +128,7 @@ resource "aws_rds_cluster_instance" "warehouse_management_2" {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Thu, Feb 08, 2024  10:00:00 AM
  * Purpose : สร้าง subnet group สำหรับ rds mysql 
  */
@@ -152,7 +152,7 @@ resource "aws_db_subnet_group" "wts_utility_rds" {
 }
 
 /**
- * Create By : Thanakot Nipitvittaya
+ * Create By : Benja kuneepong
  * Date : Thu, Feb 08, 2024  10:00:00 AM
  * Purpose : สร้าง parameter group สำหรับ mysql rds
  */
@@ -223,7 +223,7 @@ resource "aws_db_option_group" "wts_utility_rds" {
 }
 
 /**
- * Create By : Thanakot Nipitvittaya
+ * Create By : Benja kuneepong
  * Date : Thu, Feb 08, 2024  10:00:00 AM
  * Purpose : สร้าง mysql rds
  */

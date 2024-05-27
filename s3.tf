@@ -1,5 +1,5 @@
 /** 
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  11:00:00 AM
  * Purpose : สร้าง bucket / กำหนด policy สำหรับการ access control list / กำหนด policy สำหรับการ access ใน bucket
  */
@@ -45,7 +45,7 @@ resource "aws_s3_bucket_public_access_block" "terraform_state_bucket" {
 }
 
 /** 
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Tue, Feb 27, 2024  11:00:00 AM
  * Purpose : สร้าง bucket ของ wts 6 buckets ดังนี้ wts-report.cpall.co.th, wts-wts-react-web-app-frontend-bucket, wts-grt-goods-return-service-bucket, wts-utl-master-service-bucket, wts-utl-report-service-bucket, wts-whm-warehouse-management-bucket
  */

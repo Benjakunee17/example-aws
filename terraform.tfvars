@@ -1,20 +1,20 @@
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  11:00:00 AM
  * Purpose : ประกาศตัวแปลเพื่อใช้ในแต่ละ resource
  */
 
-awsprofile   = "cpalogwtsprd"
-awsprofileid = "559386985737"
+awsprofile   = ""
+awsprofileid = ""
 aws_region   = "ap-southeast-1"
 
-owner_name     = "cpall"
-system_name    = "wts"
-service_name   = "wts"
+owner_name     = ""
+system_name    = ""
+service_name   = ""
 project_name   = ""
 sr_name        = ""
-environment    = "prd"
-create_by_name = "tech-thanakot"
+environment    = ""
+create_by_name = "tech-benja"
 
 #cpalogwtsprd-vpc
 vpc_id             = "vpc-00d902d2be1657672"
@@ -30,7 +30,7 @@ aurora_engine                       = "aurora-mysql"
 aurora_version                      = "8.0.mysql_aurora.3.04.1"
 database_name                       = "DB_WAREHOUSE_MANAGEMENT"
 aurora_master_username              = "admin"
-aurora_master_password              = "rIiHijuxnWkGHtk3taI3"
+aurora_master_password              = "hidden"
 aurora_instance_type                = "db.r6g.large"
 aurora_ca_cert                      = "rds-ca-rsa4096-g1"
 
@@ -42,7 +42,7 @@ rds_wts_utility_storage_type              = "gp3"
 rds_wts_utility_allocated_storage         = "200"
 rds_wts_utility_max_allocated_storage     = "1000"
 rds_wts_utility_admin                     = "admin"
-rds_wts_utility_password                  = "caW86hwbeTCRK2p3EbPz"
+rds_wts_utility_password                  = "hidden"
 rds_wts_utility_database_name             = "DB_AUTH"
 rds_wts_utility_instance_type             = "db.r6g.large"
 rds_wts_utility_ca_cert_identifier        = "rds-ca-rsa4096-g1"

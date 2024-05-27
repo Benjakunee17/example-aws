@@ -1,5 +1,5 @@
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed Feb 28 17:00:00 +07 2024
  * Purpose : สร้าง API Gateway Private
  */
@@ -76,7 +76,7 @@ resource "aws_api_gateway_method_settings" "wts_api_gateway" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed Feb 28 17:00:00 +07 2024
  * Purpose : สร้าง api gateway vpc link สำหรับเชื่อมต่อกับ ECS Service ผ่าน AWS Private link
  */
@@ -185,7 +185,7 @@ resource "aws_api_gateway_vpc_link" "wts_whm_whm" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed Feb 28 17:00:00 +07 2024
  * Purpose : สร้าง api gateway resource
  */
@@ -253,7 +253,7 @@ resource "aws_api_gateway_resource" "warehouse_management_service" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed Feb 28 17:00:00 +07 2024
  * Purpose : สร้าง api gateway resource proxy, method, integration
  */
@@ -624,7 +624,7 @@ resource "aws_api_gateway_integration" "warehouse_management_service_proxy" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Thu Feb 29 10:00:00 +07 2024
  * Purpose : enable CORS 
  */

@@ -1,5 +1,5 @@
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date :  Thu 29 12:00:00 +07 2024
  * Purpose : สร้าง iam role and policy สำหรับ allow api gateway enable cloudwatch logging
  */
@@ -47,7 +47,7 @@ resource "aws_iam_role_policy" "api_gateway_cloudwatch_logging_policy" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date :  Thu 29 12:00:00 +07 2024
  * Purpose : สร้าง iam policy สำหรับ allow execute-api via VPC endpoint
  */
@@ -86,7 +86,7 @@ data "aws_iam_policy_document" "wts_api_gateway" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date :  Thu 29 12:00:00 +07 2024
  * Purpose : สร้าง iam policy สำหรับ allow access s3 bucket wts-prd-react-web-app-frontend-bucket via VPC endpoint
  */

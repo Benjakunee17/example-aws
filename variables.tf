@@ -1,5 +1,5 @@
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  11:00:00 AM
  * Purpose : ประกาศตัวแปลเริิ่มต้นเพื่อไปใช้ในไฟล์​ var ของแต่ละ environment
  */

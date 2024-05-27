@@ -1,5 +1,5 @@
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  11:00:00 AM
  * Purpose : ใช้สำหรับกำหนด security group สำหรับ vpc endpoint
  */
@@ -107,7 +107,7 @@ resource "aws_security_group" "vpce_rabbit_mq_sg" {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  07:00:00 PM
  * Purpose : ใช้สำหรับกำหนด security group สำหรับ aurora DB
  */
@@ -173,7 +173,7 @@ resource "aws_security_group" "warehouse_management_aurora_db_sg" {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  07:00:00 PM
  * Purpose : ใช้สำหรับกำหนด security group สำหรับ rds mysql
  */
@@ -301,7 +301,7 @@ resource "aws_security_group" "wts_utility_rds_sg" {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Tue, Feb 27, 2024  11:00:00 AM
  * Purpose : ใช้สำหรับกำหนด security group สำหรับ alb
  */
@@ -404,7 +404,7 @@ resource "aws_security_group" "wts_alb_report_s3_sg" {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Tue, Feb 27, 2024  11:00:00 AM
  * Purpose : ใช้สำหรับกำหนด security group สำหรับ ecs service
  */
@@ -699,7 +699,7 @@ resource "aws_security_group" "wts_whm_warehouse_management_sg" {
 }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Tue, Feb 27, 2024  11:00:00 AM
  * Purpose : ใช้สำหรับกำหนด security group สำหรับ aws code build
  */

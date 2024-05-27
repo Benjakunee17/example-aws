@@ -1,5 +1,5 @@
 # /**
-#  * Create by : Thanakot Nipitvittaya
+#  * Create by : Benja kuneepong
 #  * Date : Wed, Feb 07, 2024  11:00:00 AM
 #  * Purpose : ประกาศว่าใช้ terraform version อะไรสำหรับ provider
 #  */
@@ -13,7 +13,7 @@
  }
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  11:00:00 AM
  * Purpose : สร้าง bucket สำหรับเก็บ state ของ terraform
  */
@@ -30,7 +30,7 @@ terraform {
 
 
 /**
- * Create by : Thanakot Nipitvittaya
+ * Create by : Benja kuneepong
  * Date : Wed, Feb 07, 2024  11:00:00 AM
  * Purpose : กำหนด provider information
  */
